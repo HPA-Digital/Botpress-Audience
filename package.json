@@ -9,7 +9,12 @@
     "menuIcon": "people",
     "webBundle": "bin/web.bundle.js"
   },
-  "keywords": ["audience", "visualiaze", "botpress", "botpress-viewer"],
+  "keywords": [
+    "audience",
+    "visualiaze",
+    "botpress",
+    "botpress-viewer"
+  ],
   "publishConfig": {
     "access": "public"
   },
