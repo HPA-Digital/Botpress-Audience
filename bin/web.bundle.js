@@ -33465,7 +33465,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var LIMIT_PER_PAGE = 50;
+var LIMIT_PER_PAGE = 500;
 var INTERVAL_FETCH_COUNT = 60000; // 1min
 
 var AudienceModule = function (_React$Component) {
